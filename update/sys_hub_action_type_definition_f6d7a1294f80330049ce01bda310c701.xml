@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get geographic data from public IP address</description>
+        <internal_name>get_geographic_data_from_ip</internal_name>
+        <label_cache>[{"name":"{{action.ip_address}}","label":"action➛IP address","type":"action","ref":""},{"name":"{{step[ab04abf0-023d-4fa5-ba1b-01205fff43bb].response_body}}","label":"step➛Call IPInfo REST API➛Response Body","type":"step","ref":""},{"name":"{{step[ab04abf0-023d-4fa5-ba1b-01205fff43bb].status_code}}","label":"step➛Call IPInfo REST API➛Status Code","type":"step","ref":""},{"name":"{{step[ab04abf0-023d-4fa5-ba1b-01205fff43bb].u_ipinfo_token2}}","label":"step➛Call IPInfo REST API➛IPInfo Token2","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Geographic Data from IP</name>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-07 14:11:56</sys_created_on>
+        <sys_id>f6d7a1294f80330049ce01bda310c701</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Get Geographic Data from IP</sys_name>
+        <sys_package display_value="IPInfo Spoke" source="x_286552_ipinfo_sp">b045e9654f80330049ce01bda310c777</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPInfo Spoke">b045e9654f80330049ce01bda310c777</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_f6d7a1294f80330049ce01bda310c701</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-07 15:08:08</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=f6d7a1294f80330049ce01bda310c701"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f6d7a1294f80330049ce01bda310c701"/>
+</record_update>
